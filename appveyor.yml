@@ -1,0 +1,13 @@
+image: node
+
+install:
+  - npm install
+
+build_script:
+  - npm run build   # Replace with your actual build script if different
+
+test_script:
+  - npm test        # Optional: skip or modify if you don’t run tests
+
+artifacts:
+  - path: dist\*.exe  # Or the correct path to your built Electron app

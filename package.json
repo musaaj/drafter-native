@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Question drafting app for AltCBT",
   "main": "main.js",
+  "scripts": {
+  "build": "electron-builder"
+},
   "repository": ".",
   "author": "Musa Ajayi Ibrahim",
   "license": "closed",
